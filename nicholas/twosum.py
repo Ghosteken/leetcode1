@@ -5,4 +5,4 @@ class Solution:
             diffrence = target - nums[i]
             if diffrence in hashmap:
                 return [i, hashmap[diffrence]]
-            hashmap[nums[i]] = i    
+            hashmap[nums[i]] = i
